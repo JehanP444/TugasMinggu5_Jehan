@@ -25,6 +25,7 @@ describe('Demoblaze app login scenario', () => {
       //choose item
       cy.get('#tbodyid > div:nth-of-type(4) .hrefch').click()
       cy.screenshot();
+        
       //adding Samsung galaxy s7 item example
       cy.get('.btn-success').click()
       cy.wait(2000)
